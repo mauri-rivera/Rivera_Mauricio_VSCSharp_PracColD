@@ -1,9 +1,6 @@
 ﻿// Tres matrices básicas
 // Crea una matriz para contener los valores enteros 0 a 9.​
 
-
-using System.Collections.Immutable;
-
 int[] numArray = new int[10];
 
 for (int i = 0; i < 10; i++)
@@ -92,7 +89,6 @@ Console.WriteLine("------------------------------------------");
 Console.WriteLine($"La nueva cantidad de sabores de helados es: {saboresHelados.Count}");
 
 Console.WriteLine("------------------------------------------");
-
 
 // Diccionario de Información del Usuario
 // Crea un diccionario que almacene tanto claves de cadena como valores de cadena. ​
